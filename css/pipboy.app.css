@@ -1,0 +1,78 @@
+@font-face {
+	font-family: Pipboy;
+	src: url('../monofonto.ttf');
+}
+
+body {
+	font-family: Pipboy, sans-serif;
+	color: #14fe17;
+	background: #272b23;
+}
+
+.navbar {
+	border-bottom: 2px solid;
+	margin: 0px 10px;
+}
+
+
+.navbar::before, .navbar::after {
+	height: 6px;
+	width: 2px;
+	content: "";
+	position: absolute;	
+	display: block;
+	z-index: 5000;
+	background: #14fe17;
+	left: 0px;
+	bottom: -8px;
+}
+
+.navbar::before {
+	left: 0px;
+}
+
+.navbar::after {
+	right: 0px;
+}
+
+ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
+	color: #14fe17 !important;
+	font-size: 32px;
+	line-height: 22px;
+	padding-bottom: 0px;
+	
+	
+}
+
+.navbar-light .navbar-nav > li.nav-item >.nav-link,
+.navbar-light .navbar-nav > li.navbar-item.active > .nav.link {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	font-size: 32px;
+	line-height: 22px;
+	padding-bottom: 0px;
+	
+}
+
+.navbar-nav {
+	width: 100%
+}
+
+.center-image img {
+	margin: auto;
+	display: block;
+	position: relative;
+	max-height: 300px;
+	margin-top: 100px;
+	filter: grayscale(1) sepia(100%) hue-rotate(55deg) saturate(5) 
+			brightness(1) contrast(2);	
+}
+
+.row {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	margin: 10px;
+	
+}
