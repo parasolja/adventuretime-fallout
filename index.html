@@ -19,7 +19,7 @@
 	<body>
 		<nav class="navbar navbar-toggleable navbar-light">
 			<div class="collapse navbar-collapse id=" id="mainNav">
-				<ul class="navbar-nav nav-fill">
+				<ul class="navbar-nav">
 					<li class="navbar-item active">
 						<a href="#" class="nav-link">STAT</a>
 					</li>
@@ -39,31 +39,35 @@
 				</ul>
 			</div>
 		</nav>
-
-		<ul class="nav nav-tabs">
-			<li class="nav-item">
-				<a href="#status" class="nav-link" data-toggle="tab" role="tab">STATUS</a>
-			</li>
-			<li class="nav-item">
-				<a href="#special" class="nav-link" data-toggle="tab">SPECIAL</a>
-			</li>
-			<li class="nav-item">
-				<a href="#perks" class="nav-link" data-toggle="tab">PERKS</a>
-			</li>
-		</ul>
-
-		<div class="tab-content">
-			<div class="tab-pane active" id="status" role="tabpanel">
-				<div class="center-image"> <img src="adventure.png" /> </div>
+		<div class="container">
+				<div class="col-12">
+					<ul class="nav nav-tabs">
+						<li class="nav-item">
+							<a href="#status" class="nav-link" data-toggle="tab" role="tab">STATUS</a>
+						</li>
+						<li class="nav-item">
+							<a href="#special" class="nav-link" data-toggle="tab">SPECIAL</a>
+						</li>
+						<li class="nav-item">
+							<a href="#perks" class="nav-link" data-toggle="tab">PERKS</a>
+						</li>
+					</ul>
+			
+					<div class="tab-content">
+						<div class="tab-pane active" id="status" role="tabpanel">
+							<div class="center-image"> <img src="adventure.png" /> </div>
+						</div>
+						<div class="tab-pane" id="special" role="tabpanel">
+							special
+						</div>
+						<div class="tab-pane" id="perks" role="tabpanel">
+							perks
+						</div>
+					</div>
+				
+				</div>
 			</div>
-			<div class="tab-pane" id="special" role="tabpanel">
-				special
-			</div>
-			<div class="tab-pane" id="perks" role="tabpanel">
-				perks
-			</div>
-		</div>
-		
+		</div>	
 		<navbar class="navbar navbar-light pip-footer">
 			<div class="row">
 				<div class="col-3">
