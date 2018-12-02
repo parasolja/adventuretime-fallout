@@ -9,21 +9,21 @@ body {
 	background: #272b23;
 }
 
+
 .navbar {
-	border-bottom: 2px solid;
-	margin: 0px 10px;
+	border-bottom:2px solid;
+	margin:0px 10px;
 }
 
-
 .navbar::before, .navbar::after {
-	height: 6px;
+	height:7px;
 	width: 2px;
 	content: "";
-	position: absolute;	
+	position: absolute;
 	display: block;
 	z-index: 5000;
 	background: #14fe17;
-	left: 0px;
+	
 	bottom: -8px;
 }
 
@@ -37,26 +37,16 @@ body {
 
 ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
 	color: #14fe17 !important;
-	font-size: 32px;
-	line-height: 22px;
-	padding-bottom: 0px;
-	
-	
-}
-
-.navbar-light .navbar-nav > li.nav-item >.nav-link,
-.navbar-light .navbar-nav > li.navbar-item.active > .nav.link {
-	text-align: center;
-	width: 50%;
-	margin: auto;
-	font-size: 32px;
-	line-height: 22px;
-	padding-bottom: 0px;
-	
 }
 
 .navbar-nav {
-	width: 100%
+	width: 100%;
+}
+
+.navbar-light ul.navbar-nav > li {
+	dislay: block;
+	position: relative;
+	width: 100%;
 }
 
 .center-image img {
@@ -69,10 +59,17 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
 			brightness(1) contrast(2);	
 }
 
+
+.pip-footer {
+	position: fixed;
+	bottom: 0;
+	width: calc(100% - 20px);
+	margin: 10px;
+}
+
 .row {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	margin: 10px;
-	
+	margin: 10px;	
 }
