@@ -23,12 +23,12 @@ body::after {
 }
 
 
-.navbar {
+.navbar.navbar-light {
 	border-bottom:2px solid;
 	margin:0px 10px;
 }
 
-.navbar::before, .navbar::after {
+.navbar.navbar-light::before, .navbar::after {
 	height:7px;
 	width: 2px;
 	content: "";
@@ -90,6 +90,12 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
 	width: 100%;
 }
 
+.center-image {
+	position: absolute;
+	margin: auto;
+	width: 100%;
+}
+
 .center-image img {
 	margin: auto;
 	display: block;
@@ -108,11 +114,16 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
 	margin: 10px;
 }
 
-.row {
+#row1 {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	margin: 10px;	
+	margin: 10px;
+	background: rgba(16, 255, 0, 0.15);	
+}
+
+#row2 {
+	position: 
 }
 
 .navbar.navbar-light .navbar-nav{
@@ -145,4 +156,27 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
 
 .nav.nav-tabs > li:nth-child(3) > a {
 	opacity: .2;
+}
+
+.level-progress {
+	width: 90%;
+	height: 10px;
+	border: 2px solid;
+	display: inline-block;
+	width: 70%
+}
+
+.level-progress-indicator {
+	height: 6px;
+	background: #14fe17;
+	width: 70%;
+}
+
+.navbar.navbar-light.pip-footer {
+	border: none;
+}
+
+.stat-bar {
+	width: 60px;
+	margin: auto;
 }
