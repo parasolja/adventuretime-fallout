@@ -92,8 +92,7 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
 
 .center-image {
 	position: absolute;
-	margin: auto;
-	width: 100%;
+	margin-left: 50px;
 }
 
 .center-image img {
@@ -104,6 +103,8 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
 	margin-top: 100px;
 	filter: grayscale(1) sepia(100%) hue-rotate(55deg) saturate(5) 
 			brightness(1) contrast(2);	
+	margin-top: 50px;
+	margin-left: -10px;
 }
 
 
@@ -122,9 +123,6 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
 	background: rgba(16, 255, 0, 0.15);	
 }
 
-#row2 {
-	position: 
-}
 
 .navbar.navbar-light .navbar-nav{
 	margin: 0px 200px;
@@ -179,4 +177,49 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
 .stat-bar {
 	width: 60px;
 	margin: auto;
+}
+
+#status {
+	max-width: 400px;
+	margin: auto;
+}
+
+.stat-bars > #row2 {
+	margin-bottom: 100px;
+}
+
+.w10 {
+	width: 10%;
+}
+
+.w20 {
+	width: 20%;
+}
+
+.w30 {
+	width: 30%;
+}
+
+.w40 {
+	width: 40%;
+}
+
+.w50 {
+	width: 50%;
+}
+
+.w60 {
+	width: 60%;
+}
+
+.w70 {
+	width: 70%;
+}
+
+.w80 {
+	width: 80%;
+}
+
+.w90 {
+	width: 90%;
 }
