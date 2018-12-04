@@ -236,3 +236,41 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
 	
 }
 
+.stat-numbers img {
+	width: 100%;
+	filter: grayscale(1) brightness(200) contrast(0) sepia(100%) hue-rotate(55deg) saturate(20);
+
+}
+
+.stat-numbers img.sword-image {
+	width: 145%;
+
+}
+
+.stat-numbers img.sm-image {
+	width: 15px;
+	margin-left: -5px;
+	margin-top: 4px;
+}
+
+.stat-numbers img.bg-image {
+	width: 70%;
+
+}
+
+.stat-numbers img.sm2-image {
+	width: 25px;
+	margin-left: -10px;
+}
+
+.spacer-numbers {
+	width: 50px;
+}
+
+.points-radio{
+	margin-top: 2px;
+}
+
+.points-cross{
+	margin-top: 1px;
+}
