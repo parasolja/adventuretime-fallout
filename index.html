@@ -40,84 +40,117 @@
 			</div>
 		</nav>
 		<div class="container">
-				<div class="col-12">
-					<ul class="nav nav-tabs">
-						<li class="nav-item">
-							<a href="#status" class="nav-link" data-toggle="tab" role="tab">STATUS</a>
-						</li>
-						<li class="nav-item">
-							<a href="#special" class="nav-link" data-toggle="tab">SPECIAL</a>
-						</li>
-						<li class="nav-item">
-							<a href="#perks" class="nav-link" data-toggle="tab">PERKS</a>
-						</li>
-					</ul>
-			
-					<div class="tab-content">
-						<div class="tab-pane active" id="status" role="tabpanel">
-							<div class="center-image"> <img src="adventure.png" /> </div>
-	<!-- Here starts progress bars content -->					
+			<div class="col-12">
+				<ul class="nav nav-tabs">
+					<li class="nav-item">
+						<a href="#status" class="nav-link" data-toggle="tab" role="tab">STATUS</a>
+					</li>
+					<li class="nav-item">
+						<a href="#special" class="nav-link" data-toggle="tab">SPECIAL</a>
+					</li>
+					<li class="nav-item">
+						<a href="#perks" class="nav-link" data-toggle="tab">PERKS</a>
+					</li>
+				</ul>
+
+				<div class="tab-content">
+					<div class="tab-pane active" id="status" role="tabpanel">
+						<div class="center-image">
+							<img src="adventure.png" />
+						</div>
+						<!-- Here starts progress bars content -->
 						<div class="stat-bars">
-						<div class ="row" id="row2">
-							<div class="col-12">
-								<div class="stat-bar">
-									<div class="level-progress">
-										<div class="level-progress-indicator w30" width=70%"></div>
+							<div class="row" id="row2">
+								<div class="col-12">
+									<div class="stat-bar">
+										<div class="level-progress">
+											<div class="level-progress-indicator w30" width=70% "></div>
+										</div>
 									</div>
 								</div>
 							</div>
+
+							<div class="row" id="row2">
+								<div class="col-3">
+									<div class="stat-bar">
+										<div class="level-progress">
+											<div class="level-progress-indicator" width=70% "></div>
+										</div>
+									</div>
+								</div>
+								<div class="col-6">
+								</div>
+								<div class="col-3">
+									<div class="stat-bar">
+										<div class="level-progress">
+											<div class="level-progress-indicator w90" width=70% "></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- This is a duplicate of previous rows -->
+							<div class="row" id="row2">
+								<div class="col-3">
+									<div class="stat-bar">
+										<div class="level-progress">
+											<div class="level-progress-indicator w40" width=70% "></div>
+										</div>
+
+									</div>
+								</div>
+								<div class="col-6">
+								</div>
+								<div class="col-3">
+									<div class="stat-bar">
+										<div class="level-progress">
+											<div class="level-progress-indicator w50" width=70% "></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row" id="row2">
+								<div class="col-12">
+									<div class="stat-bar">
+										<div class="level-progress">
+											<div class="level-progress-indicator w60" width=70% "></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
 						</div>
-						
-						<div class ="row" id="row2">
-							<div class="col-3">
-								<div class="stat-bar">
-									<div class="level-progress">
-										<div class="level-progress-indicator" width=70%"></div>
-									</div>
-								</div>
+						<!-- Here ends the progress bars/stat bars content -->
+
+						<!-- These are columns for damage and resistance icons -->
+
+						<div class="row stat-numbers" id="row2">
+							<!-- <div class="col-2 transparent"></div> -->
+							<div class="col-2">B</div>
+							<div class="col-1">
+								<div class="icon">D</div>
+								<div class="points">18</div>
 							</div>
-							<div class="col-6">
+							<div class="col-1 transparent">
+ 
+ 
+
 							</div>
-							<div class="col-3">
-								<div class="stat-bar">
-									<div class="level-progress">
-										<div class="level-progress-indicator w90" width=70%"></div>
-									</div>
-								</div>
+							<!-- <div class="col-2"></div> -->
+							<div class="col-2">B</div>
+							<div class="col-1">
+								<div class="icon">E</div>
+								<div class="points">18</div>
 							</div>
+							<div class="col-1">
+								<div class="icon">R</div>
+								<div class="points">18</div>
+							</div>
+
+
+							<div class="col-2 transparent"></div>
 						</div>
-<!-- This is a duplicate of previous rows -->					
-						<div class ="row" id="row2">
-							<div class="col-3">
-								<div class="stat-bar">
-									<div class="level-progress">
-										<div class="level-progress-indicator w40" width=70%"></div>
-									</div>
-										
-								</div>
-							</div>
-							<div class="col-6">
-							</div>
-							<div class="col-3">
-								<div class="stat-bar">
-									<div class="level-progress">
-										<div class="level-progress-indicator w50" width=70%"></div>
-									</div>
-								</div>
-							</div>
-						</div>		
-							<div class ="row" id="row2">
-							<div class="col-12">
-								<div class="stat-bar">
-									<div class="level-progress">
-										<div class="level-progress-indicator w60" width=70%"></div>
-								</div>
-								</div>
-							</div>
-						</div>
+						<!--End of the columns -->
 					</div>
-						</div>
-<!-- Here ends the progress bars content -->						
 					<div class="tab-pane" id="special" role="tabpanel">
 						special
 					</div>
@@ -125,10 +158,10 @@
 						perks
 					</div>
 				</div>
-				
-				</div>
+
 			</div>
- <!-- Row that belongs to footer -->	
+		</div>
+		<!-- Row that belongs to footer -->
 		<navbar class="navbar navbar-light pip-footer">
 			<div class="row" id="row1">
 				<div class="col-3">
@@ -136,19 +169,27 @@
 				</div>
 				<div class="col-6">
 					<span>LEVEL 1</span>
-						<div class="level-progress">
-							<div class="level-progress-indicator" width=70%"></div>
-						</div>
+					<div class="level-progress">
+						<div class="level-progress-indicator" width=70% "></div>
+					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-3 text-right">
 					AP 50/50
 				</div>
 			</div>
 		</navbar>
 
 		<script src="js/pipboy.app.js"></script>
-		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+			integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+			crossorigin="anonymous"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+			integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+			crossorigin="anonymous"></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+			integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+			crossorigin="anonymous"></script>
 	</body>
 </html>
