@@ -274,3 +274,56 @@ ul > li.nav-item > a.nav-link, ul > li.navbar-item.active > a.nav-link {
 .points-cross{
 	margin-top: 1px;
 }
+
+#status.tab-pane.full {
+	width: 100%;
+	max-width: 100%;
+}
+
+.item-list {
+	float: left;
+	padding: 0px;
+	list-style: none;
+	margin: 0px;
+}
+
+.item-list li a {
+	display: block;
+	width: 300px;
+	padding: 5px 10px;
+	border-radius: 2px;
+	color: #14fe17;
+}
+
+.item-list li a:hover {
+	text-decoration: none;
+	background: #14fe17;
+	color: #272b23;
+}
+
+.tab-pane.full {
+	height: calc(100vh - 180px);
+}
+
+.item-stats {
+	position: absolute;
+	right: 10px;
+	bottom: 50px;
+	width: 200px;
+}
+
+.pull-left {
+	float: left !important;
+
+}
+
+.pull-right {
+	float: right !important;
+}
+
+.item-stats .row .col-12 {
+	background: rgba(16, 255, 0, 0.15);
+	margin-bottom: 2px;
+}
+
+
